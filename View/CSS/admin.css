@@ -1,0 +1,46 @@
+main {
+    width: 100%;
+    min-height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main > nav,
+main > nav > a {
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main > nav > a > img {
+    width: 100px;
+}
+
+/* ------------- */
+/*     DESKTOP   */
+/* ------------- */
+
+@media screen and (min-width: 968px){
+
+    main {
+        width: 100%;
+        min-height: 30rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    main > nav{
+        margin: 0 20px;
+        flex-direction: row;
+    }
+    
+    
+    main > nav > a > img {
+        width: 100px;
+    }
+}
